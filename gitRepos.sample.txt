@@ -1,0 +1,7 @@
+# Comment Lines are accepted
+# Own Repos - Private
+https://github.com/zebrajr/cookieclicker
+# Own Repos - Public
+https://github.com/zebrajr/sysadmin
+# Someone else Repos
+https://github.com/zebrajr/zebrajr

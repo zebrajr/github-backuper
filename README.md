@@ -24,4 +24,4 @@ This script automates the process of cloning and updating Git repositories. It r
 3. Copy the sample text file to your own ``cp gitRepos.sample.txt gitRepos.txt``
 4. Add your GitHub URL entries (add the https://github.com/you/repo directly, no need for the ssh version
 
-Made by: [Carlos Sousa](carlossousa.tech)
+Made by: [Carlos Sousa](https://carlossousa.tech)

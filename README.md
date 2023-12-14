@@ -20,8 +20,8 @@ This script automates the process of cloning and updating Git repositories. It r
 ### Installation
 
 1. Clone this repository
-2. Make ``gitBackuper.sh`` executable with ``chmod +x gitBackuper.sh``
+2. Make ``gitBackupper.sh`` executable with ``chmod +x gitBackuper.sh``
 3. Copy the sample text file to your own ``cp gitRepos.sample.txt gitRepos.txt``
-4. Add your GitHub URL entries (add the https://github.com/you/repo directly, no need for the ssh version
+4. Add your GitHub URL entries - add the https://github.com/you/repo directly, no need for the ssh version
 
 Made by: [Carlos Sousa](https://carlossousa.tech)

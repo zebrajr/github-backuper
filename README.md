@@ -1,5 +1,5 @@
 
-# GitHub Offline Backuper
+# GitHub Offline Backupper
 
 This script automates the process of cloning and updating Git repositories. It reads a list of repository URLs from a text file, checks if each repository is already cloned in a designated directory, and performs an appropriate action: it clones the repository if it's not present, or it updates (fetches and pulls) the repository if it is already cloned.
 

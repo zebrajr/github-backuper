@@ -5,8 +5,12 @@ REPO_FILE="gitRepos.txt"
 # Directory where the repositories will be cloned
 CLONE_DIR="repositories"
 
-# Create the directory if it doesn't exist
+# Directory where the tar.gz files will be stored
+ARCHIVE_DIR="archives"
+
+# Create the directories if they don't exist
 mkdir -p "$CLONE_DIR"
+mkdir -p "$ARCHIVE_DIR"
 
 # Function to convert HTTPS URL to SSH format
 convert_to_ssh() {
@@ -51,4 +55,8 @@ do
         echo "Cloning repository: $repo_name"
         git clone "$ssh_repo_url" "$repo_path"
     fi
+
+    # Create a tar.gz archive of the repository
+    tar -czf "$ARCHIVE_DIR/$repo_name.tar.gz" -C "$CLONE_DIR" "$repo_name"
+    echo "Archived repository: $repo_name to $repo_name.tar.gz"
 done < "$REPO_FILE"
